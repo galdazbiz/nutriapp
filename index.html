@@ -1,91 +1,351 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <!-- Google Analytics Content Experiment code -->
-<script>function utmx_section(){}function utmx(){}(function(){var
-k='92553051-0',d=document,l=d.location,c=d.cookie;
-if(l.search.indexOf('utm_expid='+k)>0)return;
-function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-</script><script>utmx('url','A/B');</script>
-<!-- End of Google Analytics Content Experiment code -->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
 
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Nutriapp by nutriapp</title>
-  </head>
+  <!-- Meta tags & title /-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>ShowPage - An Easy to Use Free Responsive Landing Page</title>
+  <meta name="description" content="This template is an easy to use app landing page, responsive and pretty easy to customize including some great easing effects, modal window, a sticky header with share buttons & others stuff !" />
+  <meta name="keywords" content="Free, template, easy to use, customise, one page, template, simple, minimal, landing page, app page, supview" />
+  <meta name="author" content="Supview - François Martin">
 
-  <body>
-    <div id="container">
-      <div class="inner">
+  <!-- Favicon /-->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> <!-- Favicon /-->
 
-        <header>
-          <h1>Nutriapp</h1>
-          <h2></h2>
-        </header>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/nutriapp/nutriapp/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/nutriapp/nutriapp/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/nutriapp/nutriapp" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+  <!-- Stylesheets /-->
+  <link rel="stylesheet" href="css/gumby.css">   			<!-- Gumby Framework /-->
+  <link rel="stylesheet" href="css/style.css">   			<!-- Main stylesheet /-->
+  <link rel="stylesheet" href="css/animate.css"> 			<!-- Animations /-->
+    
+  
+  <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+  
+</head>
 
-        <hr>
 
-        <section id="main_content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<body>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<!-- Preload the Whole Page -->
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<div id="preloader">   		
+<div id="loading-animation">&nbsp;</div>
+</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<!-- NAVIGATION ############################################### -->
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+		<div class="cbp-af-header">
+		
+			<nav >
+				
+				<!--  Share DIV--> 
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+				 <div class="right">
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+				 </div> <!-- End Share dIV -->
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+				 <!-- Logo -->
+			
+				 <div id="logo">
+				 
+				 	<a href="#"><img alt="Logo" src="img/logo.png"></a>
+				 	
+				 </div>
+				
+				 <!-- Links -->
+				
+				 <ul id="nav" >
+				 
+					 <li><a href="http://www.iamsupview.be">The Author</a></li>
+					 					 
+					 <li><a href="http://www.baribal.be/showpage/dl/">Get it</a></li>
+					 
+				 </ul>
+				 			 
+			</nav>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+		
+		</div> 
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
+<!-- END NAVIGATION ############################################### -->
 
-        <footer>
-          Nutriapp is maintained by <a href="https://github.com/nutriapp">nutriapp</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
 
-        
-      </div>
+<!-- HEADER / FIRST SECTION ############################################### -->
+
+
+<section class="page1">
+
+		      	<!-- Huge Title centered --> 
+		      
+		        <div class="huge-title centered">  
+		        
+		          <div class="logo-phone centered"><img alt="YOURLOGO" src="img/logo-phone.png"></div>  <!-- This Logo is only displayed on Tablet/iPhone !-->  
+		      
+		          <h1>Queremos mejorar tu alimentación de una forma simple</h1>
+		          
+		          <div class="space"></div>
+		          
+		          <a href="#container" class="button-white goto">Me interesa :)</a> 
+		  	  
+		  	    </div>
+		  	  
+		  	    <!-- IMG DISCOVER MORE --> 
+		  	  
+		  	    <div class="go-down twelve columns">
+		  	  
+		  	      <a href="#container" class="goto"><img src="img/down.png" alt="MORE"></a>
+		  	  
+		  	    </div>
+
+</section>
+
+
+<!-- END HEADER ############################################### -->
+
+
+
+<!-- BEGIN CONTAINER ############################################### -->
+
+
+<div id="container" class="container">
+
+
+<!-- SECOND SECTION ############################################### -->
+
+
+<section class="page2">
+
+	<div class="row">
+		
+				<div class="six columns article make-it-appear-right">
+				
+					<!-- Title --> 
+				
+					<h3>¿Te gustaría comer mejor?</h3>
+								
+					<!-- Content --> 
+					
+					<h5>Ése es el objetivo de esta aplicación, mejorar tus hábitos sugiriéndote mejoras. <br> <br>  <b>Comer bien</b> implica llegar a tu peso ideal, sentirte a gusto y mejorar tu salud.  </h5>
+										
+					<div class="space"></div>
+					
+					<a  class="js-open-modal"><img class="js-open-modal" src="img/googleplay_button.png" alt="googleplay"><img class="js-open-modal" src="img/appstore_button.png" alt="appstore"></a> 
+					
+					
+				
+				</div>
+				
+				<!-- Image from right --> 
+			
+				<div class="five columns picture make-it-appear-left" >
+				
+					<img src="img/1.png" alt="EXEMPLE">
+				
+				</div>
+		
+			</div> <!-- End row div -->    
+
+</section>
+
+<!-- END SECOND SECTION ############################################### -->
+
+
+
+
+<!-- TIRTH SECTION ############################################### -->
+
+
+<section class="page3" >
+
+	<div class="row">
+
+				<!-- Image from left --> 
+			
+				<div class="five columns picture make-it-appear-right" >
+				
+					<img src="img/2.png" alt="EXEMPLE">
+				
+				</div>
+
+		
+				<div class="six columns article make-it-appear-left">
+				
+					<!-- Title --> 
+				
+					<h3>¿Cómo funciona?</h3>
+								
+					<!-- Content --> 
+					
+					<h5>Tendrás tu menú personalizado, con lo que más te gusta :)</h5>
+					<br>
+					<h5>Te asignamos un nutricionista por si tienes dudas</h5>
+					<br>
+					<h5>Te sugerimos hábitos saludables</h5>
+										
+					<div class="space"></div>
+					
+					<a class="js-open-modal button-green">Another Button</a> 
+				
+				</div>
+				
+		
+			</div> <!-- End row div -->    
+</section>
+
+<!-- END TIRTH SECTION ############################################### -->
+
+
+
+<!-- Modal Window --> 
+
+<div class='modal' id='modal'>
+
+	  <div class='modal-content '>
+	  
+		<iframe src="http://eepurl.com/59LD5" width="560" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	
+	  </div>
+	  
+</div>
+
+
+
+<!-- FOURTH SECTION ############################################### -->
+
+
+<!-- END FOURTH SECTION ############################################### -->
+
+
+
+<!-- FIFTH SECTION ############################################### -->
+
+
+<section class="page5">
+
+		
+		    <div class="row">
+		    
+		    	<!-- Article centered on the Page --> 
+		
+				<div class="twelve columns centered make-it-appear-top">
+
+					<!-- Title --> 
+				
+					<h4>Consíguelo ahora por:</h4>
+													
+					<!-- Content --> 
+				
+					<h3>5€ al mes</h3>
+				
+					
+	
+				</div>
+				
+				<!-- Begin MailChimp Signup Form -->
+
+<div id="mc_embed_signup">
+<form action="http://twitter.us9.list-manage.com/subscribe/post?u=a031ed672380a4b988b24630c&amp;id=ca3d3e49bb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Para comprar pon tu email aquí</label><br>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_a031ed672380a4b988b24630c_ca3d3e49bb" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+				
+		<!--<iframe src="https://docs.google.com/forms/d/1ioAgtGwm74CQ0MoBV1z0pF5WmHIgVBi_DhzOK1gWXwI/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+		
+		    </div>
+			
+
+</section>
+
+
+<!-- END FIFTH SECTION ############################################### -->
+
+
+<!-- FOOTER SECTION ############################################### -->
+
+
+<section class="footer">
+
+		
+		    <div class="row">
+		    
+		    	<!-- Article centered on the Page --> 
+		
+				<div class="nine columns centered">
+				
+					<!-- Nav Footer --> 
+				
+					<ul> 
+						<li><a href="http://www.iamsupview.be">About Supview</a> </li> 
+						<li> <a href="http://www.baribal.be/showpage/dl/">Get it</a> </li> 
+						<li> <a href="http://dribbble.com/Supview">Dribbble</a> </li> 
+						<li> <a href="http://www.facebook.com/Supview" rel="nofollow">Facebook</a> </li> 
+						<li> <a href="http://twitter.com/Supview" rel="nofollow">Twitter</a> </li> 
+						<li> <a href="http://www.behance.net/Supview" rel="nofollow">Behance</a> </li> 
+					</ul>
+
+					<!-- Title --> 
+																
+					<p class="copyright">Showpage is a free app landing page made by <a href="http://www.iamsupview.be">Supview</a> and is under  <a href="http://creativecommons.org/licenses/by/4.0/">CC License</a> <br>© Copyright 2014 Supview. All rights reserved.</p>	
+	
+					<!-- Logo --> 
+	
+	
+					<img class="logo" src="img/logo.png" alt="Logo">
+	
+				</div>
+				
+		
+		    </div>
+			
+
+</section>
+
+
+<!-- END FOOTER SECTION ############################################### -->
+
+
+
+
+
+</div> <!-- end of container -->
+
+
+  <!-- Grab Google CDN's jQuery, fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+  
+  <script src="js/main.js" type="text/javascript"></script> 								<!-- Main Javascript File -->
+  <script src="js/classie.js" type="text/javascript"></script> 								<!-- Scroll from left & right -->
+  <script src="js/waypoints.min.js" type="text/javascript"></script>						<!-- Waypoints -->
+  <script src="js/jquery.scrollto.js" type="text/javascript"></script> 						<!-- ScrollTo -->	
+  <script src="js/mediaCheck.js" type="text/javascript"></script> 							<!-- MediaCheck -->	
+
+
+  
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <!--<script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>  -->
+
   </body>
+  
 </html>
