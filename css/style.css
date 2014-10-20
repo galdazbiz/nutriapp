@@ -425,7 +425,8 @@ nav
 
 .cbp-af-header.cbp-af-header-shrink
 {
-  height: 80px;
+  margin-top: -150px;
+  height: 150px;
   float: right;
   -webkit-transition: all 1.2s ease-in-out;
   -moz-transition: all 1.2s ease-in-out;
