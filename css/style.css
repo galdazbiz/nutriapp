@@ -149,6 +149,7 @@ h5
   font: 24px 'Source Sans Pro', sans-serif;
   font-weight: normal;
   font-weight: 100;
+  color: #FFF;
 }
 
 span
@@ -427,11 +428,11 @@ nav
 {
   height: 80px;
   float: right;
-  -webkit-transition: all 1.2s ease-in-out;
-  -moz-transition: all 1.2s ease-in-out;
-  -ms-transition: all 1.2s ease-in-out;
-  -o-transition: all 1.2s ease-in-out;
-  transition: all 1.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /* The button comes to the right place */
