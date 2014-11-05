@@ -18,7 +18,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
@@ -493,7 +493,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    
 }
 
 .timeline>li .timeline-image h4 {
